@@ -10,7 +10,7 @@ Belman Julio Santos Mojica
 
 Eday Alix González Manjarrés
 
-Edson Davod Morelo Janson
+Edson David Morelo Janson
 
 #### Ejecución de la solución
 
