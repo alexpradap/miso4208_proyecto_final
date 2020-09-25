@@ -1,0 +1,28 @@
+table, th, tr, td {
+    border: 1px solid black;
+    font-family: calibri, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 5px;
+}
+
+th {
+    background-color: lightslategray;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
