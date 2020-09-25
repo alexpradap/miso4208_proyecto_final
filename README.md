@@ -1,15 +1,33 @@
-# miso4208_taller4_monkeytesting
+# Maestría en Ingeniería de Software
+## Universidad de los Andes
+## MISO4208 - Pruebas Automáticas. 2020-20
+### Proyecto Final de Automatización de Pruebas
+#### Grupo #3
 
-Alexander Prada
+Alexander Prada Pérez
 
-Install cypress as a node package:
+Belman Julio Santos Mojica
 
-npm install --save-dev cypress
+Eday Alix González Manjarrés
 
-Install cypress to SO:
+Edson Davod Morelo Janson
 
-./node_modules/.bin/cypress install
+#### Ejecución de la solución
 
-Run cypress headless:
+1. Clonar el proyecto
 
-npx cypress run --headless --spec "cypress/integration/monkey_testing_ripper.spec.js"
+`git clone https://github.com/alexpradap/miso4208_proyecto_habitica.git`
+
+2. Instalar las dependencias del proyecto
+
+`npm install` o `npm ci`
+
+3. En caso de que Cypress no se instale correctamente de esta manera, se puede instalar Cypress como paquete de NodeJS
+
+`npm install --save-dev cypress`
+
+4. Ejecutar el servidor express
+
+`node index.js`
+
+5. Acceder a la página inicial de la solución: http://127.0.0.1:3000/
