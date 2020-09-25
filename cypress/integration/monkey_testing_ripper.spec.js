@@ -93,7 +93,7 @@ function randomAction(monkeys) {
                     cy.get(selector).then($events => {
                         var randomEvent = $events.get(getRandomInt(0, $events.length));
                         cy.wrap(randomEvent).clear({force: true});
-                        cy.wrap(randomEvent).type(getRandomStr(getRandomInt(1,48)) + '{enter}');
+                        cy.wrap(randomEvent).type(getRandomStr(getRandomInt(1,48)) + '{enter}', {force: true});
                         cy.wait(500);
                     });
                 }
