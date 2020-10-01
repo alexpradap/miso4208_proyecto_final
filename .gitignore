@@ -1,3 +1,6 @@
+# Videos
+cypress/videos/
+
 # Logs
 logs
 *.log
