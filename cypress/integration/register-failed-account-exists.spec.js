@@ -10,6 +10,6 @@ context('Login Tests', ()=>{
 
         cy.get('[type="submit"]').click();
 
-        cy.contains('Esta dirección de correo electrónico ya está en uso').should('be.visible');        
+        cy.get('div.text.col-12 > div[data-v-283c054f]').contains('Ya existe una cuenta con esa dirección de correo electrónico.');
     })
 })
