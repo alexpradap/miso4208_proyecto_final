@@ -1,27 +1,19 @@
-
 context('Login Tests', ()=>{
-    it('creating a habit', ()=>{
+    it('Creates a task', ()=>{
         cy.visit('https://habitica.com/static/home');
         cy.get('.login-button').click();
         cy.wait(2000);
         cy.get('#usernameInput').type('ea.gonzalezm@uniandes.edu.co').should('have.value', 'ea.gonzalezm@uniandes.edu.co');
         cy.get('#passwordInput').type('ea.gonzalezm');
-
         cy.get('.btn-info[type="submit"]').click();
-
         cy.get('#create-task-btn').should('be.visible');   
-        
         cy.get('#create-task-btn').click();
-        
-        
-        cy.xpath('/html/body/div/div/div[5]/div[3]/div/div/div[1]/div[2]/div[1]/div[2]').should('be.visible');
-        
-        cy.xpath('/html/body/div/div/div[5]/div[3]/div/div/div[1]/div[2]/div[1]/div[2]').click();
-        cy.xpath('/html/body/div[2]/div[1]/div/div/header/div/div[2]/input').type('Correr');
-        cy.xpath('/html/body/div[2]/div[1]/div/div/header/div/div[3]/textarea').type('Correr un poco día a día');
-        cy.xpath('/html/body/div[2]/div[1]/div/div/header/div/div[1]/div/button[2]').click();
+        cy.get('div.create-task-btn.diamond-btn > div.svg-icon.icon-todo').should('be.visible');
+        cy.get('div.create-task-btn.diamond-btn > div.svg-icon.icon-todo').click({force: true});
+        cy.get('input.form-control.input-title.task-purple-modal-text.task-purple-modal-input').type('Regar las plantas', {force: true});
+        cy.get('textarea.form-control.input-notes.task-purple-modal-text.task-purple-modal-input').type('Procura cuidar tu entorno', {force: true});
+        cy.get('button.btn.btn-primary.btn-footer.d-flex.align-items-center.justify-content-center').click({force: true});
 
-        cy.contains('Correr un poco día a día').should('be.visible')
-
+        cy.get('div.tasks-column.col-lg-3.col-md-6.todo div.task-wrapper:first-child h3 > p').contains('Regar las plantas');
     })
 })
