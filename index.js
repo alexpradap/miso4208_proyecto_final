@@ -1,7 +1,11 @@
 const child_process = require('child_process');
 const express = require('express');
+var exphbs = require("express-handlebars");
 const app = express();
 const port = 3000;
+
+app.engine("handlebars", exphbs());
+app.set("view engine", "handlebars");
 
 var arrayTest = {
     1:"login-succesful",
@@ -12,8 +16,12 @@ var arrayTest = {
 };
 
 app.get('/', (req, res) => {
-    res.sendFile('index.html', {root: __dirname});
+    res.render('home');
 });
+
+/*app.get('/', (req, res) => {
+    res.sendFile('index.html', {root: __dirname});
+});*/
 
 app.get('/styles.css', (req, res) => {
     res.sendFile('styles.css', {root: __dirname});
