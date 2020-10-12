@@ -22,6 +22,7 @@
     "express": "^4.17.1"
   },
   "dependencies": {
+    "admin-lte": "^3.0.5",
     "express-handlebars": "^5.1.0"
   }
 }

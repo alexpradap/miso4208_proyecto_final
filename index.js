@@ -7,6 +7,8 @@ const port = 3000;
 app.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
 
+app.use(express.static('node_modules/admin-lte'));
+
 var arrayTest = {
     1:"login-succesful",
     2:"creating_a_habit",
@@ -15,13 +17,13 @@ var arrayTest = {
     5:"monkey_testing_ripper"
 };
 
-app.get('/', (req, res) => {
+app.get('/index', (req, res) => {
     res.render('home');
 });
 
-/*app.get('/', (req, res) => {
-    res.sendFile('index.html', {root: __dirname});
-});*/
+app.get('/template', (req, res) => {
+    res.render('starter');
+});
 
 app.get('/styles.css', (req, res) => {
     res.sendFile('styles.css', {root: __dirname});
