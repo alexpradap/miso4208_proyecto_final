@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "admin-lte": "^3.0.5",
-    "express-handlebars": "^5.1.0"
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
   }
 }
