@@ -4,6 +4,12 @@ var exphbs = require("express-handlebars");
 const app = express();
 const port = 3000;
 
+var mysql = require('mysql');
+var connection  = require('./lib/db');
+
+// Routes
+var indexRouter = require('./routes/index');
+
 app.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
 
@@ -17,7 +23,10 @@ var arrayTest = {
     5:"monkey_testing_ripper"
 };
 
-app.get('/index', (req, res) => {
+app.use('/', indexRouter);
+
+
+/*app.get('/index', (req, res) => {
     res.render('home');
 });
 
@@ -69,7 +78,8 @@ app.get('/evidence', (req,res) => {
     
     
 });
+*/
+
+
     
-app.listen(port, () => {
-    console.log(`Listening at http://localhost:${port}`);
-});
+  module.exports = app;
