@@ -1,4 +1,3 @@
-const child_process = require('child_process');
 const express = require('express');
 var exphbs = require("express-handlebars");
 const app = express();
@@ -14,14 +13,6 @@ app.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
 
 app.use(express.static('node_modules/admin-lte'));
-
-var arrayTest = {
-    1:"login-succesful",
-    2:"creating_a_habit",
-    3:"register-failed-account-exists",
-    4:"create_public_challenge",
-    5:"monkey_testing_ripper"
-};
 
 app.use('/', indexRouter);
 

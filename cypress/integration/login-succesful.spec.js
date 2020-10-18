@@ -4,7 +4,7 @@ context('Login Tests', ()=>{
         cy.get('.login-button').click();
 
         cy.get('#usernameInput').type('ea.gonzalezm@uniandes.edu.co').should('have.value', 'ea.gonzalezm@uniandes.edu.co');
-        cy.get('#passwordInput').type('ea.gonzalezm');
+        cy.get('#passwordInput').type('12345678');
 
         cy.get('.btn-info[type="submit"]').click();
 
