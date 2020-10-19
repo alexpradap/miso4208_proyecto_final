@@ -53,7 +53,7 @@ La prueba se ejecuta a través de los siguientes comandos:
 
 Toma de capturas de referencia:
 
-`./node_modules/.bin/backstop reference`
+`./node_modules/.bin/backstop test`
 
 Toma de capturas de prueba, comparación automática con las capturas de referencia y generación de reporte de resultados:
 

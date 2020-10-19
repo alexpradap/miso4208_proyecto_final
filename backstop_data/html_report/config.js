@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_Homepage_0_document_0_Laptop_PC.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_Homepage_0_document_0_Laptop_PC.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_Homepage_0_document_0_Laptop_PC.png",
         "selector": "document",
         "fileName": "habiticacom_Homepage_0_document_0_Laptop_PC.png",
         "label": "Homepage",
@@ -28,7 +28,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_Homepage_0_document_1_Mobile_Phone.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_Homepage_0_document_1_Mobile_Phone.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_Homepage_0_document_1_Mobile_Phone.png",
         "selector": "document",
         "fileName": "habiticacom_Homepage_0_document_1_Mobile_Phone.png",
         "label": "Homepage",
@@ -52,7 +52,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_Register_0_document_0_Laptop_PC.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_Register_0_document_0_Laptop_PC.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_Register_0_document_0_Laptop_PC.png",
         "selector": "document",
         "fileName": "habiticacom_Register_0_document_0_Laptop_PC.png",
         "label": "Register",
@@ -76,7 +76,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_Register_0_document_1_Mobile_Phone.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_Register_0_document_1_Mobile_Phone.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_Register_0_document_1_Mobile_Phone.png",
         "selector": "document",
         "fileName": "habiticacom_Register_0_document_1_Mobile_Phone.png",
         "label": "Register",
@@ -100,7 +100,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_Login_0_document_0_Laptop_PC.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_Login_0_document_0_Laptop_PC.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_Login_0_document_0_Laptop_PC.png",
         "selector": "document",
         "fileName": "habiticacom_Login_0_document_0_Laptop_PC.png",
         "label": "Login",
@@ -124,7 +124,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_Login_0_document_1_Mobile_Phone.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_Login_0_document_1_Mobile_Phone.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_Login_0_document_1_Mobile_Phone.png",
         "selector": "document",
         "fileName": "habiticacom_Login_0_document_1_Mobile_Phone.png",
         "label": "Login",
@@ -148,7 +148,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_FAQ_0_document_0_Laptop_PC.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_FAQ_0_document_0_Laptop_PC.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_FAQ_0_document_0_Laptop_PC.png",
         "selector": "document",
         "fileName": "habiticacom_FAQ_0_document_0_Laptop_PC.png",
         "label": "FAQ",
@@ -172,7 +172,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_FAQ_0_document_1_Mobile_Phone.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_FAQ_0_document_1_Mobile_Phone.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_FAQ_0_document_1_Mobile_Phone.png",
         "selector": "document",
         "fileName": "habiticacom_FAQ_0_document_1_Mobile_Phone.png",
         "label": "FAQ",
@@ -196,7 +196,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_Features_0_document_0_Laptop_PC.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_Features_0_document_0_Laptop_PC.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_Features_0_document_0_Laptop_PC.png",
         "selector": "document",
         "fileName": "habiticacom_Features_0_document_0_Laptop_PC.png",
         "label": "Features",
@@ -220,7 +220,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_Features_0_document_1_Mobile_Phone.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_Features_0_document_1_Mobile_Phone.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_Features_0_document_1_Mobile_Phone.png",
         "selector": "document",
         "fileName": "habiticacom_Features_0_document_1_Mobile_Phone.png",
         "label": "Features",
@@ -244,7 +244,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_Press_Kit_0_document_0_Laptop_PC.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_Press_Kit_0_document_0_Laptop_PC.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_Press_Kit_0_document_0_Laptop_PC.png",
         "selector": "document",
         "fileName": "habiticacom_Press_Kit_0_document_0_Laptop_PC.png",
         "label": "Press_Kit",
@@ -268,7 +268,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_Press_Kit_0_document_1_Mobile_Phone.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_Press_Kit_0_document_1_Mobile_Phone.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_Press_Kit_0_document_1_Mobile_Phone.png",
         "selector": "document",
         "fileName": "habiticacom_Press_Kit_0_document_1_Mobile_Phone.png",
         "label": "Press_Kit",
@@ -292,7 +292,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_Contact_0_document_0_Laptop_PC.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_Contact_0_document_0_Laptop_PC.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_Contact_0_document_0_Laptop_PC.png",
         "selector": "document",
         "fileName": "habiticacom_Contact_0_document_0_Laptop_PC.png",
         "label": "Contact",
@@ -316,7 +316,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/habiticacom_Contact_0_document_1_Mobile_Phone.png",
-        "test": "../bitmaps_test/20201019-155112/habiticacom_Contact_0_document_1_Mobile_Phone.png",
+        "test": "../bitmaps_test/20201019-181319/habiticacom_Contact_0_document_1_Mobile_Phone.png",
         "selector": "document",
         "fileName": "habiticacom_Contact_0_document_1_Mobile_Phone.png",
         "label": "Contact",
