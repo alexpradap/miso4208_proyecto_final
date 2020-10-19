@@ -1,0 +1,14 @@
+[
+  {
+    "domain": "habitica.com",
+    "path": "/",
+    "name": "connect:sess",
+    "value": "eyJ1c2VySWQiOiI1ODk2YTA1NS0wNmQ0LTQ3OTItOTNlNy1mZDcwZjU4ZmE4NWYifQ==",
+    "expirationDate": 1603137186,
+    "hostOnly": false,
+    "httpOnly": true,
+    "secure": true,
+    "session": false,
+    "sameSite": "no_restriction"
+  }
+]
