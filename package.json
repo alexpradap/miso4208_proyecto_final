@@ -25,6 +25,7 @@
     "admin-lte": "^3.0.5",
     "express-handlebars": "^5.1.0",
     "mqtt": "^4.2.1",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "two-way-binding": "^1.0.2"
   }
 }
